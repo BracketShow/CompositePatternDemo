@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CompositePatternDemo.BooleanExpression">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>BooleanExpression.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Expressions" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CompositePatternDemo.AndExpression">
+    <Position X="3.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AndExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositePatternDemo.EqualCriteria&lt;TValue&gt;">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>EqualCriteria.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CompositePatternDemo.OrExpression">
+    <Position X="5.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OrExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CompositePatternDemo.IExpression">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IExpression.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
