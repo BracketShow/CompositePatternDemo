@@ -47,12 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AndExpression.cs" />
-    <Compile Include="BooleanExpression.cs" />
-    <Compile Include="EqualCriteria.cs" />
-    <Compile Include="IExpression.cs" />
+    <Compile Include="AndExpressionComposite.cs" />
+    <Compile Include="BooleanExpressionComposite.cs" />
+    <Compile Include="EqualCriteriaComponent.cs" />
+    <Compile Include="ExpressionComponent.cs" />
     <Compile Include="Model.cs" />
-    <Compile Include="OrExpression.cs" />
+    <Compile Include="OrExpressionComposite.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
