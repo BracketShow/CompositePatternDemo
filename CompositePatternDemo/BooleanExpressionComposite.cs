@@ -2,13 +2,13 @@
 
 namespace CompositePatternDemo
 {
-    public abstract class BooleanExpressionComposite<TModel> : ExpressionComponent<TModel>
+    public abstract class BooleanExpressionComposite<TModel> : Expression<TModel>
     {
-        protected readonly List<ExpressionComponent<TModel>> Expressions = new List<ExpressionComponent<TModel>>();
+        protected readonly List<Expression<TModel>> Expressions = new List<Expression<TModel>>();
 
-        protected void Add(ExpressionComponent<TModel> expressionComponent)
+        protected void Add(Expression<TModel> expression)
         {
-            Expressions.Add(expressionComponent);
+            Expressions.Add(expression);
         }
     }
 }

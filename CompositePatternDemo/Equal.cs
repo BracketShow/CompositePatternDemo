@@ -3,12 +3,12 @@ using System.Linq.Expressions;
 
 namespace CompositePatternDemo
 {
-    public class EqualCriteriaComponent<TModel, TValue> : ExpressionComponent<TModel>
+    public class Equal<TModel, TValue> : Expression<TModel>
     {
-        private readonly Expression<Func<TModel, TValue>> _eval;
+        private readonly System.Linq.Expressions.Expression<Func<TModel, TValue>> _eval;
         private readonly TValue _value;
 
-        public EqualCriteriaComponent(Expression<Func<TModel, TValue>> eval, TValue value)
+        public Equal(System.Linq.Expressions.Expression<Func<TModel, TValue>> eval, TValue value)
         {
             _eval = eval;
             _value = value;

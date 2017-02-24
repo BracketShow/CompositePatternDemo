@@ -2,11 +2,11 @@ using System.Linq;
 
 namespace CompositePatternDemo
 {
-    public class OrExpressionComposite<TModel> : BooleanExpressionComposite<TModel>
+    public class Or<TModel> : BooleanExpressionComposite<TModel>
     {
-        public OrExpressionComposite(params ExpressionComponent<TModel>[] expressionsComponent)
+        public Or(params Expression<TModel>[] expressions)
         {
-            foreach (var expression in expressionsComponent)
+            foreach (var expression in expressions)
                 Add(expression);
         }
 
